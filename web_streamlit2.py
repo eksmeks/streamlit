@@ -77,7 +77,7 @@ def main():
     #if play_button2:
     with open(mp4_path, "rb") as video_file:
         video_data = video_file.read()
-        st.video(video_data, loop=True)
+        st.video(video_data) #loop
 
 if __name__ == "__main__":
     main()
