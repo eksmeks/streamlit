@@ -44,9 +44,9 @@ def main():
         audio_data = audio_file.read()
         audio_format = get_audio_format(audio_path)
         if audio_format == "mp3":
-            st.audio(audio_data, format="audio/mp3", start_time=0)
+            st.audio(audio_data, format="audio/mp3", start_time=0, loop=True)
         if audio_format == "wav":
-            st.audio(audio_data, format="audio/wav", start_time=0)
+            st.audio(audio_data, format="audio/wav", start_time=0, loop=True)
 
     #st.title("Local Video Player Example")
     #video_path = "ghreen1.mp4"
