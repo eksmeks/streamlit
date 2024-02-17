@@ -26,8 +26,8 @@ def main():
         "exp5m_vonminute2_40[177bpm]edit2": "exp5m_vonminute2_40[177bpm]edit2.mp3",
         "käx9[178bpm]": "käx9[178bpm].mp3",
         "RAc2ggaZA9Hv.128[180bpm]": "RAc2ggaZA9Hv.128[180bpm].mp3",
-        "happy28_keine_atastrophe_x[157bpm]": "happy28_keine_atastrophe_x[157bpm].wav",
-        "relatedtoacid[155bpm]": "relatedtoacid[155bpm].wav",
+        #"happy28_keine_atastrophe_x[157bpm]": "happy28_keine_atastrophe_x[157bpm].wav",
+        #"relatedtoacid[155bpm]": "relatedtoacid[155bpm].wav",
         #cd Desktop\python\web_streamlit && streamlit run web_streamlit2.py
         "standalone1[170bpm]": "standalone1[170bpm].mp3",
         #"rec_num_1[mix]":"rec_num_1.mp3",
