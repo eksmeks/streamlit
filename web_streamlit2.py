@@ -30,7 +30,7 @@ def main():
         "relatedtoacid[155bpm]": "relatedtoacid[155bpm].wav",
         #cd Desktop\python\web_streamlit && streamlit run web_streamlit2.py
         "standalone1[170bpm]": "standalone1[170bpm].mp3",
-        "record 1 [mix]":"rec_num_1.mp3",
+        #"rec_num_1[mix]":"rec_num_1.mp3",
     }
 
     selected_mp3 = st.selectbox("select", list(audio_files.keys()))
@@ -52,15 +52,20 @@ def main():
     mp4_files = {
         "ghreen1": "ghreen1.mp4",
         "ghreen2": "ghreen2.mp4",
-        "conca_output_great":"conca_output_great.mp4",
-        "conca_output_great_crazy":"conca_output_great_crazy.mp4",
+        #"conca_output_great":"conca_output_great.mp4",
+        #"conca_output_great_crazy":"conca_output_great_crazy.mp4",
         "minus_matters":"minus_matters.mp4",
-        "original_mandelbrot_zoom":"original_mandelbrot_zoom.mp4",
-        "out_hole":"out_hole.mp4",
+        #"original_mandelbrot_zoom":"original_mandelbrot_zoom.mp4",
+        #"out_hole":"out_hole.mp4",
         "out_long":"out_long.mp4",
-        "out_long2":"out_long2.mp4",
+        #"out_long2":"out_long2.mp4",
         "out_mandel_hoch":"out_mandel_hoch.mp4",
-        "all_mp4":"all_mp4.mp4",
+        #"all_mp4":"all_mp4.mp4",
+        "out_tan_shit":"out_tan_shit.mp4",
+        "out_tan_slime":"out_tan_slime.mp4",
+        "tangential_journey_2":"tangential_journey_2.mp4",
+        "tanzer1":"tanzer1.mp4",
+        "minus_matters":"minus_matters.mp4",
     }
 
     selected_mp4 = st.selectbox("select", list(mp4_files.keys()))
