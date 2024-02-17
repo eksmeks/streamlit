@@ -31,6 +31,8 @@ def main():
         #cd Desktop\python\web_streamlit && streamlit run web_streamlit2.py
         "standalone1[170bpm]": "standalone1[170bpm].mp3",
         #"rec_num_1[mix]":"rec_num_1.mp3",
+        "23max23S23.2.3.[1ong][185bpm]":"23max23S23.2.3.[1ong][185bpm].mp3",
+        "NOTiTELNOPLAN._7[190bpm]":"NOTiTELNOPLAN._7[190bpm].mp3"
     }
 
     selected_mp3 = st.selectbox("select", list(audio_files.keys()))
