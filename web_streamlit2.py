@@ -46,7 +46,7 @@ def main():
         if audio_format == "mp3":
             st.audio(audio_data, format="audio/mp3", start_time=0)
         if audio_format == "wav":
-            st.audio(audio_data, format="audio/wav", start_time=0, loop=True)
+            st.audio(audio_data, format="audio/wav", start_time=0)
 
     #st.title("Local Video Player Example")
     #video_path = "ghreen1.mp4"
@@ -77,7 +77,7 @@ def main():
     #if play_button2:
     with open(mp4_path, "rb") as video_file:
         video_data = video_file.read()
-        st.video(video_data)
+        st.video(video_data, loop=True)
 
 if __name__ == "__main__":
     main()
